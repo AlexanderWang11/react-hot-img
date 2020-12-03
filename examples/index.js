@@ -6,14 +6,16 @@ import img from './imgs/kumamon.jpg'
 
 class App extends React.Component {
   state = {
-    coordinates: [{
-      height: 166,
-      id: "Hyp_dBIiD",
-      inputVal: "44444",
-      width: 215,
-      x: 615,
-      y: 78.5625
-    }],
+    coordinates: [
+      {
+        height: 166,
+        id: "Hyp_dBIiD",
+        inputVal: "44444",
+        width: 215,
+        x: 615,
+        y: 78.5625
+      }
+    ]
   }
 
   changeCoordinate = (coordinate, index, coordinates) => {
